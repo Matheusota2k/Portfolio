@@ -122,10 +122,6 @@ const setupScrollFix = () => {
     }
 };
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 // Controle de visibilidade do footer
 const handleFooterVisibility = () => {
     const footer = document.querySelector('footer');
@@ -141,24 +137,16 @@ const handleFooterVisibility = () => {
     }
 };
 
->>>>>>> 42c67a3 (Versão 0.2)
->>>>>>> 4bada72 (Versão 0.2)
 // Inicialização
 document.addEventListener('DOMContentLoaded', () => {
     setupIntersectionObserver();
     setupMobileMenu();
     setupContactForm();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
     
     // Adiciona o listener para o scroll
     window.addEventListener('scroll', handleFooterVisibility);
     // Chama uma vez para verificar o estado inicial
     handleFooterVisibility();
->>>>>>> 42c67a3 (Versão 0.2)
->>>>>>> 4bada72 (Versão 0.2)
 });
 
 // Fix para animações ao carregar a página
